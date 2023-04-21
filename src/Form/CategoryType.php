@@ -17,9 +17,9 @@ class CategoryType extends AbstractType
             ->add('title', TextType::class, [
                 'label' => 'Titre de la catégorie',
                 'attr' => [
-                    'class' => 'form-control my-2'
+                    'class' => 'form-control my-2',
+                    'placeholder' => 'Merci de saisir le titre de la catégorie',
                 ],
-                'placeholder' => 'Merci de saisir le titre de la catégorie',
                 'label_attr' => [
                     'class' => 'text-info'
                 ]
