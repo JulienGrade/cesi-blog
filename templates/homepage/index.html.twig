@@ -1,7 +1,14 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Accueil{% endblock %}
+{% block title %}Accueil - My Blog{% endblock %}
 
 {% block body %}
-<h1>Bienvenu sur cesi-blog</h1>
+    <div class="container-md mt-5">
+        <h1>Le dernier article paru</h1>
+        <article class="my-5">
+            <p>Posté le : 22-04-2023</p>
+            <h2 class="text-center">Titre de l'article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam eos laboriosam magni minima, voluptatem. Accusantium assumenda aut cupiditate dolore esse facilis inventore iure nobis, officiis omnis, quae repellat vero?</p>
+        </article>
+    </div>
 {% endblock %}
